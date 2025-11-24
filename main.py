@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 
 # --- 1. Configuración Inicial ---
+#uvicorn main:app --reload, armar enviroment, requirements
 
 # Carga la variable de entorno (GOOGLE_API_KEY) desde el archivo .env
 load_dotenv()
